@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME BUILDER</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form>
+        <div class="container">
+            <h1> Milestone:1 "Static Resume Builder"</h1>
+            <div class="resume">
+                <fieldset>
+                    <legend>Personal Information:</legend>
+                    <label for="Name">Name:</label>
+                    <input type="text" id="Name" name="Name"><br>
+                    <label for="FatherName">Father Name:</label>
+                    <input type="text" id="FatherName" name="FatherName"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="Mobile">Mobile #</label>
+                    <input type="number" id="Mobile" name="Mobile"><br>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address"><br>
+                    <label for ="profilepic">Profile Picture:</label>
+                    <input type="file" id="profilepic" name="profilepic" accept="image/*"><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Education:</legend>
+                    <div id="education" class="hidden">
+                        <label for="educationMessage">Details:</label>
+                        <textarea id="educationMessage" rows="10" cols="70"></textarea>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Experience:</legend>
+                    <div id="experience" class="hidden">
+                        <label for="experienceMessage">Details:</label>
+                        <textarea id="experienceMessage" rows="10" cols="70"></textarea>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Skills:</legend>
+                    <div id="skills" class="hidden">
+                        <label for="skillsMessage">Details:</label>
+                        <textarea id="skillsMessage" rows="10" cols="70"></textarea>
+                    </div>
+                </fieldset>
+                <br>
+                <button type="button" onclick="toggleAllSections()">Show/Hide Sections</button>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <form>
+        <div class="container">
+            <h1> Static Resume Builder</h1>
+            <div id="profilepic">       
+                <img src="./anj.jpg" alt="image" class="profileimg">        
+            </div>
+            <div class="resume">
+                <fieldset>
+                    <legend> Personal Information:</legend>
+                    <label for="Name">Name:</label>
+                    <input type="Name" id="Name"><br>
+                    <label for="Father Name">Father Name:</label>
+                    <input type="Father Name" id="Father Name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email"><br>
+                    <label for="Mobile #">Mobile #</label>
+                    <input type="number" id="Mobile #"><br>
+                    <label for="address" id="address">Address:</label>
+                    <input type="address" id="address">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Education:</legend>
+                    <div class="hidden">
+                <label for="message"></label>
+                <textarea name"message" id="message" rows="10" cols="70";></textarea>
+                </div>
+                </fieldset>   
+                <br>
+                <fieldset>
+                    <legend>Experience:</legend>
+                    <div class="hidden">
+                        <label for="message"></label>
+                        <textarea name="message" id="message" rows="10" cols="70";></textarea>
+                    </div>
+                </fieldset>    
+                <br>
+                    <fieldset>
+                        <legend>Skills:</legend>
+                        <div class="hidden">     
+                    <label for="message"></label>
+                    <textarea name="message" id="message" rows="10" cols="70";></textarea>
+                        </div>
+                    </fieldset>
+                    <button onclick="toggleAllSections()">Show/Hide</button>
+                    <button type="submit">Submit</button>
+                  
+                  
+                    <script src="./script.js"></script>
+
+
+            </div>
+            
+        </div>
+    </form>
+    </section>
+</body>
+</html> -->
